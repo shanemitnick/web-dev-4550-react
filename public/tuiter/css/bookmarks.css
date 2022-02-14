@@ -123,10 +123,38 @@ body {
   color: lightgrey;
 }
 
-.wd-icons {
+.wd-icons-section a {
+  color: white;
+}
+.wd-icons-section {
   width: 100%;
-  height: 10px;
-  background-color: red;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  color: lightgrey;
+  font-style: bold;
+  margin-left: 78px;
+  font-size: 20px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+
+.wd-icon {
+  margin-left:25px;
+  color: lightgrey;
+}
+
+.wd-icon-section {
+  display: flex;
+  flex-direction: row;
+  margin-right:35px; 
+}
+
+
+.wd-icon-section p {
+  font-size: 15px;
+  margin-top: 0px;
+  margin-left: 10px;
+  color: lightgrey;
+
 }
