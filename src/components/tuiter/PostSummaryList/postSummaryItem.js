@@ -1,13 +1,6 @@
 import React from "react";
 
-const PostSummaryItem = ({
-    post= {
-        "topic": "Web Development",
-        "userName": "Reach JS",
-        "time": "2h",
-        "title": "This is the title for this post",
-        "image": "null"
-    }}) => {
+const PostSummaryItem = (post) => {
     return(
         <>
             <div className="row border pt-1 me-1 ms-1">
