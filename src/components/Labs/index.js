@@ -1,4 +1,3 @@
-import {Link} from 'react-router-dom';
 import Classes from './Classes';
 import Style from "./Style/index";
 import ConditionalOutput from "./conditional-output";

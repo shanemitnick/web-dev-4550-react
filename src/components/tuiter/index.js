@@ -1,4 +1,3 @@
-import {Link} from 'react-router-dom';
 import NavigationSidebar from "./NavigationSidebar";
 import WhoToFollowList from "./WhoToFollowList/index";
 import ExploreComponent from "./ExploreScreen/ExploreComponent";

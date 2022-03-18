@@ -6,7 +6,7 @@ const WhoToFollowListItem = ({who = {"avatarIcon": "null", "userName":"Java", "h
                     <li className="list-group-item">
                         <div className="row">
                             <div className="col-3 mt-auto mb-auto">
-                                <img className="rounded-circle" width="72px" height="auto" src={who.avatarIcon} />
+                                <img className="rounded-circle" width="72px" height="auto" src={who.avatarIcon} alt="Profile Icon"/>
                             </div>
                             <div className="col-5">
                                 <p className="fw-bold d-inline">{who.userName}</p> <i className="fa fa-check-circle"/>

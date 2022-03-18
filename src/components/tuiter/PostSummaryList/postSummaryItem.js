@@ -16,7 +16,7 @@ const PostSummaryItem = (post) => {
                 </div>
 
                 <div className="col-3">
-                    <img width="96px" className="float-end rounded-3" src={post.imageURL} />
+                    <img width="96px" className="float-end rounded-3" src={post.imageURL} alt="post image"/>
                 </div>
 
 
