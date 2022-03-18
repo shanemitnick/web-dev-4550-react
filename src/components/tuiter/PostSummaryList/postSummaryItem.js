@@ -1,6 +1,7 @@
 import React from "react";
 
 const PostSummaryItem = (post) => {
+    post = post.post;
     return(
         <>
             <div className="row border pt-1 me-1 ms-1">
