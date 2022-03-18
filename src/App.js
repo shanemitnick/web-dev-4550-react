@@ -4,8 +4,7 @@ import Index from "./components/tuiter";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 
 
-import './vendors/bootstrap.bundle.min';
-import './vendors/fontawesome-free-5.15.4-web/css/all.css';
+
 
 function App() {
   return (
