@@ -1,6 +1,7 @@
 import NavigationSidebar from "./NavigationSidebar";
 import WhoToFollowList from "./WhoToFollowList/index";
 import ExploreComponent from "./ExploreScreen/ExploreComponent";
+import {Link} from "react-router-dom";
 
 function Tuiter() {
     return (
@@ -16,6 +17,10 @@ function Tuiter() {
             <div className="d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
                 <WhoToFollowList  />
             </div>
+
+            <Link to="/"> Link to Lab </Link>
+            <br/>
+            <Link to="/hello"> Link to Hello World</Link>
 
         </div>
     );
