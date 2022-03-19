@@ -9,7 +9,7 @@ const ExploreComponent = () => {
                         <i className="fa fa-search d-inline pe-2"/>
                         <input className="form-control d-inline" style={{width: "90%",  border: "none", boxShadow: "none" }} type="text" name="" placeholder="Search Tuiter"/>
                     </div>
-                    <div className="col-1 "> <a href="#">
+                    <div className="col-1 "> <a href="/tuiter">
                         <i className="fa fa-cog fa-2x position-relative top-20 start-70 pt-1 align-middle" /> </a>
                     </div>
                 </div>
@@ -17,19 +17,19 @@ const ExploreComponent = () => {
            <ul className="row nav mb-2 nav-tabs">
                 <ul className="nav nav-tabs mt-2 me-1 ms-1">
                     <li className="nav-item">
-                        <a className="nav-link active" href="#">For You</a>
+                        <a className="nav-link active" href="/tuiter">For You</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Trending</a>
+                        <a className="nav-link" href="/tuiter">Trending</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">News</a>
+                        <a className="nav-link" href="/tuiter">News</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Sports</a>
+                        <a className="nav-link" href="/tuiter">Sports</a>
                     </li>
                     <li className="d-none d-lg-block  nav-item">
-                        <a className="nav-link" href="#">Entertainment</a>
+                        <a className="nav-link" href="/tuiter">Entertainment</a>
                     </li>
 
 
@@ -37,7 +37,7 @@ const ExploreComponent = () => {
            </ul>
             <div className="row mt-1 position-relative">
                 <h2 className="position-absolute bottom-0 d-inline mb-2 ms-3 float-end text-white">SpaceX's Starship </h2>
-                <img className="img-fluid ms-1" src="https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg" width="100%"/>
+                <img className="img-fluid ms-1" src="https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg" width="100%" alt="Starship Day1"/>
             </div>
 
             <div className="mt-2">
