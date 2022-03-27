@@ -3,6 +3,7 @@ import Style from "./Style/index";
 import ConditionalOutput from "./conditional-output";
 import ToDoList from "./todo/ToDoList";
 import {Link} from "react-router-dom";
+import ReduxExamples from "./redux-examples";
 
 
 const Labs = () => {
@@ -14,6 +15,7 @@ const Labs = () => {
             <Style />
             <ConditionalOutput />
             <ToDoList />
+            <ReduxExamples />
 
             <Link to="/tuiter"> <h1>LINK TO REACT TUITER (FOR ASSIGNMENT 6) </h1> </Link>
             <br/>
