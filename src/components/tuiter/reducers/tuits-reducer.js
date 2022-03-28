@@ -6,7 +6,6 @@ const tuitsReducer = (state = tuits, action) => {
         case 'delete-tuit':
             return state.filter(
                 tuit => tuit._id !== action.tuit._id);
-            return tuits;
         case 'create-tuit':
             const newTuit = {
                 title: action.tuit,
