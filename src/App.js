@@ -2,7 +2,7 @@ import HelloWorld from "./components/HelloWorld";
 import Labs  from "./components/Labs/index";
 import Index from "./components/tuiter";
 import ExploreComponent from "./components/tuiter/ExploreScreen/ExploreComponent";
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {BrowserRouter, Link, Route, Routes} from "react-router-dom";
 import NotificationComponent from "./components/tuiter/NotifcationScreen";
 import HomeScreen from "./components/tuiter/HomeScreen";
 
@@ -32,6 +32,9 @@ function App() {
                         </Route>
                     </Route>
                 </Routes>
+                <Link to="/labs">Labs</Link> <br/>
+                <Link to="/tuiter">Tuiter Explore</Link> <br/>
+                <Link to="/tuiter/home">Tuiter Home</Link> <br/>
                 <h3>Please go to /labs for the labs section, and /tuiter for the tuiter section. Typing /tuiter/home and tuiter/explore is still needed.</h3>
             </div>
         </BrowserRouter>
