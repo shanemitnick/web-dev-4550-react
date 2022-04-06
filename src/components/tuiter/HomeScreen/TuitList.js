@@ -8,10 +8,11 @@ import {findAllTuits} from "../actions/tuits-actions";
 const TuitList = () => {
     const posts = useSelector(
         state => state.tuits);
-    console.log(posts);
 
     const dispatch = useDispatch();
-    useEffect(() => findAllTuits(dispatch), []);
+    useEffect(() => findAllTuits(dispatch)
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+        , []);
 
 
 

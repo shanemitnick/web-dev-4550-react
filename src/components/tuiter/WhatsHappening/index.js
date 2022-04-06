@@ -10,13 +10,6 @@ const WhatsHappening = () => {
 
     const dispatch = useDispatch();
 
-    let [whatsHappening, setWhatsHappening] = useState('');
-
-    const tuitClickHandler = () => {
-        dispatch({type: 'create-tuit',
-            tuit: whatsHappening
-        });
-    }
     return (
         <>
             <textarea className="form-control w-75"
