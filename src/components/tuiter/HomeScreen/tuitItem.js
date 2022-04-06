@@ -1,14 +1,12 @@
 import React from "react";
 import {useDispatch} from "react-redux";
 import TuitStats from "../components/tuit-stats";
+import {deleteTuit} from "../actions/tuits-actions";
 
 const TuitItem = (post) => {
     const dispatch = useDispatch();
 
-    const deleteTuit = (tuit) => {
-      dispatch({type: 'delete-tuit', tuit}) ;
-    };
-    post = post.tuit;
+    post = post.post;
     return(
         <>
             <div className="row border pt-1 me-1 ms-1">
@@ -21,7 +19,10 @@ const TuitItem = (post) => {
 
                     <p className="mb-0"> {post.title}</p>
                     <TuitStats tuit={post}/>
-                    <button onClick={() => deleteTuit(post)}>Delete Tweet</button>
+                    <button onClick={() => deleteTuit(
+                        dispatch, post)}
+
+                    >Delete Tweet</button>
 
                 </div>
 

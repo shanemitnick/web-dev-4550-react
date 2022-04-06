@@ -1,10 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import TuitItem from "./tuitItem";
-import {useSelector} from "react-redux";
+import {useDispatch, useSelector}
+    from "react-redux";
+import {findAllTuits} from "../actions/tuits-actions";
+
 
 const TuitList = () => {
     const posts = useSelector(
         state => state.tuits);
+    console.log(posts);
+
+    const dispatch = useDispatch();
+    useEffect(() => findAllTuits(dispatch), []);
+
+
 
     return (
         <div>
@@ -13,7 +22,7 @@ const TuitList = () => {
                     posts.map && posts.map(tuit =>
 
                         <TuitItem key={tuit._id}
-                                      tuit={tuit}/>)
+                                    post={tuit}/>)
                 }
             </ul>
         </div>

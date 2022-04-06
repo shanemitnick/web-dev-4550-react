@@ -6,10 +6,6 @@ import {BrowserRouter, Link, Route, Routes} from "react-router-dom";
 import NotificationComponent from "./components/tuiter/NotifcationScreen";
 import HomeScreen from "./components/tuiter/HomeScreen";
 
-
-
-
-
 function App() {
     return (
         <BrowserRouter>
