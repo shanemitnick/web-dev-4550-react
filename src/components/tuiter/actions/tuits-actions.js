@@ -7,6 +7,7 @@ export const DELETE_TUIT = 'DELETE_TUIT';
 
 export const createTuit = async (dispatch, tuit) => {
     const newTuit = await service.createTuit(tuit);
+    console.log(newTuit);
     dispatch({
         type: CREATE_TUIT,
         newTuit
